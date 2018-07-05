@@ -1,0 +1,26 @@
+.name {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    float: left;
+}
+
+.test {
+    border: 5px;
+    padding: 30px;
+    background-color: black;
+    height: 150px;
+    width: 100%;
+}
+
+.Selfie {
+    height: 400px;
+    width: 700px
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
