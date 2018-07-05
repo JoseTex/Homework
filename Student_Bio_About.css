@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 .name {
+=======
+name {
+>>>>>>> 795f16e45a0a22196a808c878270db13ab589036
     height: 100px;
     width: 100px;
     background-color: red;
@@ -6,7 +10,11 @@
     float: left;
 }
 
+<<<<<<< HEAD
 .test {
+=======
+test {
+>>>>>>> 795f16e45a0a22196a808c878270db13ab589036
     border: 5px;
     padding: 30px;
     background-color: black;
@@ -14,6 +22,7 @@
     width: 100%;
 }
 
+<<<<<<< HEAD
 .Selfie {
     height: 400px;
     width: 700px
@@ -24,3 +33,9 @@
     display: block;
     clear: both;
   }
+=======
+Selfie {
+    height: 400px;
+    width: 700px
+}
+>>>>>>> 795f16e45a0a22196a808c878270db13ab589036
