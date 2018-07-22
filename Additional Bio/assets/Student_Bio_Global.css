@@ -1,0 +1,171 @@
+.body {
+    font-family: 'Cursive';
+    font-size: 20px;
+    font-style: italic;
+    overflow: scroll;
+    background-image: url(http://cdntdreditorials.azureedge.net/cache/a/2/5/4/e/7/a254e7aef0642ab03aff49a6856b5eb5e4b4b1e8.jpg);
+    background-size: 300px 200px;
+    background-blend-mode: soft-light;
+    background-color: darkgreen;
+}
+
+/** The attributes below allow the headers of each page to keep thier styles and form although the have different names across each page. **/
+h1 {
+    width: 50%;
+    background-color: darkgreen;
+    border: 10px double white;
+    position: static;
+    padding: 20px;
+    font-family: 'Monofett';
+    font-size: 50px;
+}
+
+.headline {
+    float: left;
+    width: 98.5%;
+    height: 33.3%;
+    padding: 10px;
+    background-color: green;
+    border: 5px solid black;
+    content: 
+}
+/** End of the header modifications. **/
+
+/** Below you will see 3 different classes which are attached to divs. I wanted to add a bit more style to the menu. Thus I layered divs for the menu to bring just a bit of subtle style to the menu. **/
+.buttons {
+    z-index: 2;
+    vertical-align: middle;
+    position: relative;
+    right: -585px;
+    top: 85px;
+    float: right;
+    padding: 40px 100px;
+    font: 30px bold;
+    white-space: nowrap;
+}
+
+.floater {
+    vertical-align: middle;
+    position: relative;
+    right: -246px;
+    float: right;
+    padding: 40px 100px;
+    font: 30px bold;
+    border: 5px solid black;
+    color: aquamarine;
+    background-color: green;
+    height: 1000px;
+    width: 55px;
+    margin: 10px;
+    white-space: nowrap;
+}     
+
+.buttonbox {
+    border: 10px double white;
+    padding: 5px;
+    padding-right: 27px;
+    padding-left: 15px;
+    width: 172px;
+    height: 300px;
+    float: right;
+    position: relative;
+    right: 13px;
+    top: 30px;
+    z-index: 1;
+    background-color: darkgreen;
+}
+/** End of the menu divs attributes. **/ 
+
+
+/** This removes the underlines from the buttons. Because they are technically "links" that act as buttons, they had underlines which would not go away without editing out these values. **/
+/** Main**/
+.main:link {
+    text-decoration: none;
+}
+.main:visited {
+    text-decoration: none;
+}
+.main:hover {
+    text-decoration: none;
+}
+.main:active {
+    text-decoration: none;
+}
+
+/** About Me**/
+.aboutme:link {
+    text-decoration: none;
+}
+.aboutme:visited {
+    text-decoration: none;
+}
+.aboutme:hover {
+    text-decoration: none;
+}
+.aboutme:active {
+    text-decoration: none;
+}
+
+/** Portfolio**/
+.portfolio:link {
+    text-decoration: none;
+}
+.portfolio:visited {
+    text-decoration: none;
+}
+.portfolio:hover {
+    text-decoration: none;
+}
+.portfolio:active {
+    text-decoration: none;
+}
+
+/** Contact**/
+.contact:link {
+    text-decoration: none;
+}
+.contact:visited {
+    text-decoration: none;
+}
+.contact:hover {
+    text-decoration: none;
+}
+.contact:active {
+    text-decoration: none;
+}
+/** End of the link underline removals.  **/
+
+
+/** These entries below allow the button animations to occur as well as color changes. **/
+.buttons span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    color: black;
+    font-family: 'Monofett'
+}
+
+.buttons span:after {
+  content: '\00bb';
+  position: relative;
+  opacity: 0;
+  top: 0;
+  right: -35px;
+  transition: 0.1s;
+}
+
+.button:hover span {
+  color: aliceblue
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+

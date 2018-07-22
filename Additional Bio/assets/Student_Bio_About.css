@@ -1,0 +1,22 @@
+#yourboy {
+    color: aliceblue;
+    position: relative;
+    text-align: center;
+    margin-left: 275px;
+}
+
+.selfie {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: 350px;
+    margin-right: auto;
+    margin-top: 150px;
+    position: relative;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }

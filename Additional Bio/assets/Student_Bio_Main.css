@@ -1,0 +1,29 @@
+/** Main Page Style Sheet **/
+
+#initiald {
+    width: 265px;
+    height: 200px;
+    padding: 0px;
+    border-width: 0px;
+    float: right;
+    position: absolute;
+    top: 14px;
+    right: 10px;
+
+}
+
+#whip {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: 275px;
+    margin-right: auto;
+    margin-top: 150px;
+    position: relative;
+}
+
+#intro{
+    color: aliceblue;
+    text-align: center;
+    margin-left: 205px;
+}
